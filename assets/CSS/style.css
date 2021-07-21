@@ -23,6 +23,23 @@ h2:hover {
 body {
     background-color: #3a358a;
 }
+/* Page d'accueil, texte de présentation de l'entreprise */
+#Accueil_presentation_entreprise{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+#Accueil_presentation_equipe{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding-inline-end: 1px;
+    padding-inline-start: 1px;
+}
+
+.Accueil_body_titres{
+    font-family: 'FrederickatheGreat-Regular', sans-serif;
+    font-size: 1.2rem;
+}
 
 .presentation {
     display: flex;
