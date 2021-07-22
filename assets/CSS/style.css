@@ -79,12 +79,8 @@ h2 {
 /* ------------------------------HEADER---------------------------- */
 
 #logo {
-    background-position: top left;
-    position: absolute;
     width: 14vw;
     height: 10vw;
-    display: flex;
-    align-items: flex-start;
 }
 
 h1 {
