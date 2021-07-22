@@ -80,7 +80,7 @@ h2 {
 
 #logo {
     width: 14vw;
-    height: 10vw;
+    height: 20vh;
 }
 
 h1 {
@@ -101,14 +101,7 @@ h1 {
 
 /* début du footer */
 #footer {
-    display: grid;
-    grid-template-columns: 34vw 64vw;
-    justify-content: center;
-    grid-template-rows: 7vh 7vh 7vh;
-    grid-template-areas:
-        "Adresse Droits"
-        "Adresse Mentions"
-        "Adresse Copyright";
+
     background-color: #3a358a;
 }
 
