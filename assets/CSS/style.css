@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap');
+
 @font-face {
     font-family: "FrederickatheGreat-Regular";
     src: url("../fonts/FrederickatheGreat-Regular.ttf");
@@ -15,31 +16,70 @@
     text-decoration: none;
 }
 
-h2:hover {
+body {
+    background-color: #3a358a;
+}
+
+/* Page d'accueil, texte de présentation de l'entreprise */
+main{
+    width: 100vw;
+}
+
+#Accueil_presentation_entreprise {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Accueil_presentation_equipe {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Accueil_body_h2 {
+    text-decoration: none;
+    font-family: 'FrederickatheGreat-Regular', sans-serif;
+}
+
+section{
+    justify-content: center;
+}
+
+.Accueil_h2:hover {
     /* survol*/
     color: #08dd3d;
 }
 
-body {
-    background-color: #3a358a;
-}
-/* Page d'accueil, texte de présentation de l'entreprise */
-#Accueil_presentation_entreprise{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
+@media screen and (min-width: 575px) {
+    #Accueil_presentation_equipe{
+        font-size: 1.4rem;
+    }
+    #Accueil_body_equipe{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .Accueil_body_h2 {
+        font-size: 1.8rem;
+    }
+    #Accueil_body_sections{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    section{
+        width: 40vw;
+        height: auto;
+    }
+    
+    .Accueil_body_sections_img{
+        width: 40vw;
+        height: auto;
+    }
 }
 
-#Accueil_presentation_equipe{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    padding-inline-end: 1px;
-    padding-inline-start: 1px;
-}
-
-.Accueil_body_titres{
-    font-family: 'FrederickatheGreat-Regular', sans-serif;
-    font-size: 1.2rem;
-}
+/* Fin -----------body accueil projet_2------------------------- */
 
 .presentation {
     display: flex;
@@ -104,6 +144,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* div #bandeau contient #logo & h1 */
 #bandeau {
     display: flex;
@@ -131,9 +172,10 @@ h1 {
     color: #690426;
     /* font-size: 25px; */
     font-size: 1.5rem;
-    padding-left: 1rem; 
+    padding-left: 1rem;
     flex-wrap: wrap;
 }
+
 /* fin du bandeau */
 /* la nav #navigation contient les boutons .atelier, .realisations, .contact  */
 #navigation {
@@ -182,6 +224,7 @@ h1 {
     text-decoration: none;
     color: #000000;
 }
+
 /* fin de nav */
 /* début du footer */
 #footer {
@@ -237,7 +280,7 @@ h1 {
     color: #000000;
 }
 
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
     #bandeau {
         height: 156px;
     }
@@ -278,13 +321,13 @@ h1 {
     .mentions,
     .copyright {
         font-size: 20px;
-    }
+    } */
 
-    .presentation {
+    /* .presentation {
         padding: 100px;
         font-size: 3rem;
-    }
-
+    } */
+/* 
     .imgpresentation {
         width: 100%;
         height: 60%;
@@ -319,6 +362,6 @@ h1 {
         height: 60%;
 
         padding: 30px;
-    }
+    } */
 
-}
+/* } */
