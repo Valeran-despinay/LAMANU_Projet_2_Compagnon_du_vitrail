@@ -11,93 +11,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link src="atelier.html">
 
-    <title>Projet1-Vitraux</title>
-    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Projet2_Bootstrap_Compagnons_du_vitrail</title>
+    <!-- Lien vers le CSS.style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Lien vers CSS Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
-        <div id="bandeau">
-            <img id="logo" src="assets/images/logo_slogan_dessous_sans_fond.png">
-            <h1>COMPAGNON DU VITRAIL</h1>
-        </div>
-        <nav id="navigation">
-            <div><a class="nav_boutons" href="#">
-                    <div class="atelier">Atelier</div>
-                </a>
-            </div>
-            <div><a class="nav_boutons" href="#">
-                <div class="realisations">Réalisations</div>
-            </a>
-            </div>
-            <div><a class="nav_boutons" href="#">
-                <div class="contact">Contact</div>
-            </a>
-            </div>
-        
-        </nav>
+<!-- INSERER LE HEADER ICI !!! -->
     </header>
     <main>
-        <p>blablabla</p>
-        <div class="presentation">
-            <p>
-                Compagnon du vitrail, la somme en lumière:
-                Fondé par 3 amies en 1986 dans la tradition des artisans créateurs verriers . Situé à deux pas de la
-                cathédrale d'Amiens, elle perpétue l’art millénaire du vitrail grâce à son savoir-faire et à sa
-                créativité.
-
-                Passionnées par le verre, sa transparence et ses couleurs, mais aussi par les multiples façons de lui
-                donner vie et de le mettre en scène. Elles expérimentent les différentes manières de faire évoluer cet
-                art dans les sphères du design contemporain.
-            </p>
-        </div>
-
-        <div class="imgpresentation">
-            <img src="assets/images/equipe.jpg" alt="presentation" title="presentation de l'equipe">
-            <div class="textpresentation">
-                Depuis près de 35 ans, Marie, Lucille et Pierrette mettent leur amour du travail du verre à votre
-                disposition pour les plus belles créations de vitraux. Elles se sont rencontrées lors de leurs études à
-                l'École Nationale Supérieure des Arts Appliqués et Métiers d’Arts Olivier de Serres, où elles y ont
-                suivi une formation artistique pluridisciplinaire de 4 ans. S’en est suivi, une formation en vitrail
-                avec l'obtention du diplôme supérieur d’Arts Appliqués Plasticien section Vitrail. D’une franche amitié
-                et réelle complicité est né “compagnon du travail”.
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                One of three columns
+                </div>
+                <div class="col-sm">
+                One of three columns
+                </div>
             </div>
         </div>
-        <div class="box">
-            
-            <div class="box1">
-                <a href="#box1">
-                <h2>Nos realisations</h2>
-                <img src="assets/images/realisations.jpg" alt="realisations" title="Nos realisations">
-            </div>
-        </a>
-            <div class="box2">
-                <a href="#box2">
-                <h2>Notre atelier</h2>
-                <img src="assets/images/atelier.jpg" alt="atelier"
-                    title="Notre atelier et les techniques de fabrication">
-                <h2>et les techniques de fabrication</h2>
-            </a>
-            </div>
-        </div>
-
     </main>
-   
-    <footer>
-        <nav id="footer">
-            <div class="adresse">
-                <p>35 Rue des Jacobins</p>
-                <p>80000 AMIENS</p>
-                <p>03.22.00.00.00</p>
-                <p>compagnondutravail@gmail.com</p>
-                <p>N°SIRET : 00000000000000</p>
+    <!-- Footer pas très correct sémentiquement ^_^ -->
+    <footer id="footer">
+        <div class="container-fluid text-white text-left p-3 m-3">
+            <div class="row">
+                <div class="col-4">
+                    35 Rue des Jacobins<br>
+                    80000 AMIENS<br>
+                    03.22.00.00.00<br>
+                    compagnondutravail@gmail.com<br>
+                    N°SIRET : 00000000000000
+                </div>
+                <div class="col-8">
+                    compagnon du vitrail- tous droits réservés <br>
+                    mentions légales <br><br>
+                    © 2021 - site réalisé par : Valeran, Alycia et Blanche<br>
+                    édité par : Valeran, Tiphanie et Sophie
+                </div> 
             </div>
-            <div class="droits">compagnon du vitrail- tous droits réservés</div>
-            <div class="mentions"><a id="mention" href="#">mentions légales</a></div>
-            <div class="copyright">© 2021 - site réalisé par : Rémy, Valeran, Alycia et Blanche</div>
-        </nav>
+        </div>
+    </footer>
+    <!-- Footer un peu plus correct ? -->
+    <footer id="footer">
+        <div class="container-fluid text-white p-3">
+            <div class="row">
+                <div class="col-4">35 Rue des Jacobins</div>
+                <div class="col-8">compagnon du vitrail- tous droits réservés</div>
+            </div>
+            <div class="row">
+                <div class="col-4">80000 AMIENS</div>
+                <div class="col-8">mentions légales</div>
+            </div>
+            <div class="row">
+                <div class="col-4">03.22.00.00.00</div>
+            </div>
+            <div class="row">
+                <div class="col-4">compagnondutravail@gmail.com</div>
+                <div class="col-8">© 2021 - site réalisé par : Valeran, Alycia et Blanche</div>
+            </div>
+            <div class="row">
+                <div class="col-4">N°SIRET : 00000000000000</div>
+                <div class="col-8">édité par : Valeran, Tiphanie et Sophie</div>
+            </div>
+        </div>      
     </footer>
 </body>
-
+        <!-- Lien vers JQ + JS BootStrap -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
 </html>
