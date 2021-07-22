@@ -39,7 +39,12 @@ body {
 }
 
 /* Page Atelier */
-#WorkshopBody{
+/* #WorkshopBody{
+} */
+
+/* début du footer */
+#footer {
+
     background-color: #3a358a;
     font-family: 'Montserrat', sans-serif;
 }
@@ -87,4 +92,9 @@ body {
 #WP7{
     width: 692px;
     height: 519px;
+}
+
+#boutonatelier,#boutonréalisation
+{
+    margin-right: 10vw;
 }
