@@ -45,3 +45,18 @@ body {
 
     background-color: #3a358a;
 }
+
+#colombe {
+    width: 100%;
+}
+
+.banniere {
+    height: 400px; 
+    background-repeat: no-repeat; 
+    width: auto;
+}
+
+#boutonatelier,#boutonréalisation
+{
+    margin-right: 10vw;
+}
