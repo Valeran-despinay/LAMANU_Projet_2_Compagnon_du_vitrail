@@ -21,7 +21,7 @@
                 <img id="logo"
                     src="../LAMANU_Projet_2_Compagnon_du_vitrail/assets/images/logo_slogan_dessous_sans_fond.png">
             </div>
-            <div class="col-9">
+            <div class="col-6">
                 <h1 class="title text-center">Compagnon du Vitrail</h1>
             </div>
         </div>
@@ -29,6 +29,9 @@
           ; background-repeat: no-repeat; background-size: 100%; padding: 5%;">
         </div>
 
+        <div class="row justify-content-center">
+            <div class="bg-white col-6 text-center p-2 m-2">Pour nous trouver</div>
+        </div>
         <!--Google map-->
         <div class="map-responsive">
             <iframe class=""
@@ -37,7 +40,7 @@
         </div>
 
         <div class="informations">
-            <div class="row">
+            <div class="row m-5">
                 <div class="col border border-dark p-5 bg-white text-center">35 rue des jacobins 80000 Amiens
                     <div class="col text-center"> 03.22.00.00.00</div>
                 </div>
@@ -66,7 +69,7 @@
             <!-- </div> -->
         </div>
         <form>
-            <div class="formulaire bg-white">
+            <div class="formulaire m-5 bg-white">
                 <div class="form-group bg-white text-center">
                     <label for="exampleFormControlTextarea1">Formulaire de contact</label>
                     <input type="nom" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -87,9 +90,13 @@
                         placeholder="Téléphone">
                 </div>
 
-                <div class="form-group">
-                    <input type="objet" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Objet : menu déroulant">
+                <div class="form-group col-md-4">
+                    <select id="Objet" class="form-control">
+                        <option selected>Objet</option>
+                            <option value=un>Renseignements pour les cours</option>
+                            <option value=deux>Informations</option>
+                            <option value=trois>Devis</option>
+                    </select>    
                 </div>
 
                 <div class="form-group">
