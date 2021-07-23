@@ -19,7 +19,6 @@
 body {
     background-color: #3a358a;
 }
-/* début de Page d'accueil body */
 
 #Accueil_presentation_entreprise {
     font-family: 'Montserrat', sans-serif;
@@ -42,5 +41,23 @@ body {
 /* début de Réalisations body */
 .Realisations_body_texte{
     font-family: 'Montserrat', sans-serif;
+}
+
+.Realisations_body_img_1{
+    width: auto;
+    height: 10rem;
+    object-fit: contain;
+}
+
+.Realisations_body_img_2{
+    width: auto;
+    height: 12rem;
+    object-fit: contain;
+}
+
+.Realisations_body_img_3{
+    width: auto;
+    height: 22rem;
+    object-fit: contain;
 }
 /* fin de Réalisations body */
