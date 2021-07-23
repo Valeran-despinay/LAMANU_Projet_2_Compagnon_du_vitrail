@@ -19,10 +19,7 @@
 body {
     background-color: #3a358a;
 }
-/* Page d'accueil, texte de présentation de l'entreprise */
-/* main{
-    width: 100vw;
-} */
+/* début de Page d'accueil body */
 
 #Accueil_presentation_entreprise {
     font-family: 'Montserrat', sans-serif;
@@ -41,3 +38,9 @@ body {
     /* survol*/
     color: #08dd3d;
 }
+/* fin de Page d'accueil body */
+/* début de Réalisations body */
+.Realisations_body_texte{
+    font-family: 'Montserrat', sans-serif;
+}
+/* fin de Réalisations body */
