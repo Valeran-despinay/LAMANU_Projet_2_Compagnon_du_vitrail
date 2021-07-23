@@ -11,43 +11,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/CSS/contact.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 
 <body>
+    <header>
     <div class="header">
         <div class="row bg-white">
             <div class="col-3">
                 <img id="logo"
-                    src="../LAMANU_Projet_2_Compagnon_du_vitrail/assets/images/logo_slogan_dessous_sans_fond.png">
+                    src="assets/img/logo_slogan_dessous_sans_fond.png">
             </div>
             <div class="col-6">
                 <h1 class="title text-center">Compagnon du Vitrail</h1>
             </div>
         </div>
-        <!-- <div class="d-flex justify-content-center align-items-center h-100 mx-auto">
-            <div class="text-white"></div>
-            <img id="colombe" src="../LAMANU_Projet_2_Compagnon_du_vitrail/assets/images/colombe_eglise2.jpg">
-
-              <a class="btn btn-outline-light btn-lg bg-light text-dark" href="#!" role="button" id="boutonatelier">Atelier</a>
-              <a class="btn btn-outline-light btn-lg bg-light text-dark" href="#!" role="button" id="boutonréalisation">Réalisations</a>
-              <a class="btn btn-outline-light btn-lg bg-light text-dark" href="#!" role="button" id="boutoncontact">Contact</a>
-            </div>
-        </div> -->
         <div class="banniere">
-            <div class="text-center bg-image" style="background-image: url('https://cdn.discordapp.com/attachments/859064046745419796/867366874320601108/colombe_eglise.jpg');
+            <div class="text-center bg-image" style="background-image: url(assets/img/colombe_eglise.jpg);
             background-repeat: no-repeat; background-size: 100%; padding: 13%;">
-                <div class="text-white">
-                    <a class="btn btn-outline-light btn-lg bg-light text-dark" href="#!" role="button"
-                        id="boutonatelier">Atelier</a>
-                    <a class="btn btn-outline-light btn-lg bg-light text-dark" href="#!" role="button"
-                        id="boutonréalisation">Réalisations</a>
-                    <a class="btn btn-outline-light btn-lg bg-light text-dark" href="#!" role="button"
-                        id="boutoncontact">Contact</a>
+                <div class="container align-items-center">
+                    <div class="row row-cols-1 row-cols-sm-3 justify-content-between">
+                        <button type="button" class="col-12 col-sm-3 btn btn-outline-light bg-light text-dark mt-2"
+                            href="#!" role="button" id="boutonatelier">Atelier</a>
+                            <button type="button" class="col-12 col-sm-3 btn btn-outline-light bg-light text-dark mt-2"
+                                href="#!" role="button" id="boutonréalisation">Réalisations</a>
+                                <button type="button"
+                                    class="col-12 col-sm-3 btn btn-outline-light bg-light text-dark mt-2" href="#!"
+                                    role="button" id="boutoncontact">Contact</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</header>
     <div class="row justify-content-center">
         <div class="bg-white col-6 text-center p-2 m-2">Pour nous trouver</div>
 
@@ -129,29 +125,31 @@
         </div>
     </form>
 
-    <footer id="footer">
-        <div class="container-fluid text-white p-3">
-            <div class="row">
-                <div class="col-4">35 Rue des Jacobins</div>
-                <div class="col-8">compagnon du vitrail- tous droits réservés</div>
-            </div>
-            <div class="row">
-                <div class="col-4">80000 AMIENS</div>
-                <div class="col-8">mentions légales</div>
-            </div>
-            <div class="row">
-                <div class="col-4">03.22.00.00.00</div>
-            </div>
-            <div class="row">
-                <div class="col-4">compagnondutravail@gmail.com</div>
-                <div class="col-8">© 2021 - site réalisé par : Valeran, Alycia et Blanche</div>
-            </div>
-            <div class="row">
-                <div class="col-4">N°SIRET : 00000000000000</div>
-                <div class="col-8">édité par : Valeran, Tiphanie et Sophie</div>
-            </div>
+  <!--  début du footer -->
+  <footer id="footer">
+    <div class="container-fluid text-white p-3">
+        <div class="row">
+            <div class="col-4">35 Rue des Jacobins</div>
+            <div class="col-8">compagnon du vitrail- tous droits réservés</div>
         </div>
-    </footer>
+        <div class="row">
+            <div class="col-4">80000 AMIENS</div>
+            <div class="col-8">mentions légales</div>
+        </div>
+        <div class="row">
+            <div class="col-4">03.22.00.00.00</div>
+        </div>
+        <div class="row">
+            <div class="col-4">compagnondutravail@gmail.com</div>
+            <div class="col-8">© 2021 - site réalisé par : Valeran, Alycia et Blanche</div>
+        </div>
+        <div class="row">
+            <div class="col-4">N°SIRET : 00000000000000</div>
+            <div class="col-8">édité par : Valeran, Tiphanie et Sophie</div>
+        </div>
+    </div>
+</footer>
+<!-- fin du footer -->
 </body>
 
 </html>

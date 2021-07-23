@@ -37,6 +37,7 @@ body {
     /* survol*/
     color: #08dd3d;
 }
+/* fin de Page d'accueil body */
 
 /* Page Atelier */
 /* #WorkshopBody{
@@ -64,6 +65,34 @@ body {
     border-radius: 10%;
     background-color: #FAF6F6;
     color: #690426;
+}
+/* ------------------------------HEADER---------------------------- */
+/* début du bandeau */
+#logo {
+    width: auto;
+    height: 20vh;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "FrederickatheGreat-Regular", Arial;
+    font-weight: lighter;
+    height: 5.5rem;
+    width: auto;
+    color: #690426;
+    /* font-size: 25px; */
+    font-size: 2rem;
+    padding-left: 1rem;
+    flex-wrap: wrap;
+}
+/* fin du bandeau */
+/* ------------------------------FOOTER------------------------------- */
+/* début du footer */
+
+#mention {
+    color: #ffffff;
 }
 #WP1{
     width: 415px;
@@ -94,11 +123,6 @@ body {
     height: 519px;
 }
 
-#boutonatelier,#boutonréalisation
-{
-    margin-right: 10vw;
-}
-/* fin de Page d'accueil body */
 /* début de Réalisations body */
 .Realisations_body_texte{
     font-family: 'Montserrat', sans-serif;
@@ -122,3 +146,36 @@ body {
     object-fit: contain;
 }
 /* fin de Réalisations body */
+/* début body contact */
+body {
+    background-color: #3a358a;
+}
+
+.map-responsive {
+    width: 70%;
+    /* height: 10vh; */
+    margin: 2rem auto;
+}
+
+#footer {
+
+    background-color: #3a358a;
+}
+
+#colombe {
+    width: 100%;
+}
+
+.banniere {
+    height: 400px;
+    background-repeat: no-repeat;
+    width: auto;
+}
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap'); */
+
+/* @font-face {
+    font-family: "FrederickatheGreat-Regular";
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+} */
