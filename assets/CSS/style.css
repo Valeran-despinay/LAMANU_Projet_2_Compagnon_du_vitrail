@@ -93,8 +93,7 @@ body {
     width: 692px;
     height: 519px;
 }
-
-#boutonatelier,#boutonréalisation
-{
-    margin-right: 10vw;
+/* -----------------------Body page mention------------------------- */
+#Mentions_body{
+    background-color: #ffffff;
 }
