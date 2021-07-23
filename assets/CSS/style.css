@@ -80,7 +80,7 @@ h2 {
 /* ------------------------------HEADER---------------------------- */
 
 #logo {
-    width: 14vw;
+    width: auto;
     height: 20vh;
 }
 
@@ -143,11 +143,11 @@ h1 {
 .nav_boutons:hover {
     color: #000000;
 }
-
+/* 
 #boutonatelier,
 #boutonréalisation {
     margin-right: 10vw;
-}
+} */
 
 body {
     background-color: #3a358a;
