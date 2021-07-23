@@ -15,78 +15,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* __________________________ */
 body {
     background-color: #3a358a;
-<<<<<<< HEAD
 }
-/* Page d'accueil, texte de présentation de l'entreprise */
-#Accueil_presentation_entreprise {
-    font-family: 'Montserrat', sans-serif;
-}
-
-#Accueil_presentation_equipe {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.Accueil_body_h2 {
-    text-decoration: none;
-    font-family: 'FrederickatheGreat-Regular', sans-serif;
-}
-
-.Accueil_h2:hover {
-    /* survol*/
-    color: #08dd3d;
-}
-/* fin de Page d'accueil body */
-
-/* Page Atelier */
-/* #WorkshopBody{
-} */
-
-/* début du footer */
-#footer {
-
-    background-color: #3a358a;
-=======
->>>>>>> f71ab864defa35f3cdc5c06c780db35af4c3feba
-    font-family: 'Montserrat', sans-serif;
-}
-/* DEBUT HEADER */
-#logo {
-    width: 14vw;
-    height: 20vh;
-}
-
-h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "FrederickatheGreat-Regular", Arial;
-    font-weight: lighter;
-    height: 5.5rem;
-    width: auto;
-    color: #690426;
-    /* font-size: 25px; */
-    font-size: 2rem;
-    padding-left: 1rem;
-    flex-wrap: wrap;
-}
-#boutonatelier,
-#boutonréalisation {
-    margin-right: 10vw;
-}
-/* FIN HEADER */
-
-/* DEBUT PAGE ATELIER */
-/* Texte détaillant les techniques utilisées par l'atelier */
-.WorkshopTechnical{
-    border-radius: 5%;
-    background-color: #FAF6F6;
-    color: #690426;
-}
-<<<<<<< HEAD
-/* ------------------------------HEADER---------------------------- */
+/* ------------------------------DEBUT HEADER---------------------------- */
 /* début du bandeau */
+#colombe {
+    width: 100%;
+}
+
+.banniere {
+    height: 400px;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
 #logo {
     width: auto;
     height: 20vh;
@@ -107,41 +51,43 @@ h1 {
     flex-wrap: wrap;
 }
 /* fin du bandeau */
-/* ------------------------------FOOTER------------------------------- */
-/* début du footer */
-
-#mention {
-    color: #ffffff;
-}
-#WP1{
-    width: 415px;
-    height: 622px;
-}
-#WP2{
-    width: 429px;
-    height: 622px;
-}
-#WP3{
-    width: 675px;
-    height: 729px;
-}
-#WP4{
-    width: 880px;
-    height: 660px;
-}
-#WP5{
-    width: 828px;
-    height: 621px;
-}
-#WP6{
-    width: 831px;
-    height: 467px;
-}
-#WP7{
-    width: 692px;
-    height: 519px;
+/* --------------------FIN DU HEADER------------------------ */
+/* -------------------- DEBUT BODY PAGE ACCUEIL------------------------ */
+/* Page d'accueil, texte de présentation de l'entreprise */
+#Accueil_presentation_entreprise {
+    font-family: 'Montserrat', sans-serif;
 }
 
+#Accueil_presentation_equipe {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Accueil_body_h2 {
+    text-decoration: none;
+    font-family: 'FrederickatheGreat-Regular', sans-serif;
+}
+
+.Accueil_h2:hover {
+    /* survol*/
+    color: #08dd3d;
+}
+/* -------------------- FIN BODY PAGE ACCUEIL------------------------ */
+/* -------------------- DEBUT BODY PAGE ATELIER------------------------ */
+
+.WorkshopPicture{
+    border-radius: 5%;
+    width: 100%;
+    height: auto;
+}
+
+/* Texte détaillant les techniques utilisées par l'atelier */
+.WorkshopTechnical{
+    border-radius: 5%;
+    background-color: #FAF6F6;
+    color: #690426;
+}
+/* --------------------FIN BODY PAGE ATELIER------------------------ */
+/* --------------------BODY PAGE REALISATIONS------------------------ */
 /* début de Réalisations body */
 .Realisations_body_texte{
     font-family: 'Montserrat', sans-serif;
@@ -164,46 +110,13 @@ h1 {
     height: 22rem;
     object-fit: contain;
 }
-/* fin de Réalisations body */
-/* début body contact */
-body {
-    background-color: #3a358a;
-}
-
+/* --------------------FIN BODY PAGE REALISATIONS------------------------ */
+/* --------------------BODY PAGE CONTACT------------------------ */
 .map-responsive {
     width: 70%;
     /* height: 10vh; */
     margin: 2rem auto;
 }
-
-#footer {
-
-    background-color: #3a358a;
-}
-
-#colombe {
-    width: 100%;
-}
-
-.banniere {
-    height: 400px;
-    background-repeat: no-repeat;
-    width: auto;
-}
-/* 
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap'); */
-
-/* @font-face {
-    font-family: "FrederickatheGreat-Regular";
-    src: url("../fonts/FrederickatheGreat-Regular.ttf");
-} */
-=======
-/* Modifs photos */
-.WorkshopPicture{
-    border-radius: 5%;
-    width: 100%;
-    height: auto;
-}
-/* FIN PAGE ATELIER */
->>>>>>> f71ab864defa35f3cdc5c06c780db35af4c3feba
+/* --------------------FIN BODY PAGE CONTACT------------------------ */
+/* --------------------FOOTER------------------------ */
+/* pas de css dans le footer */
