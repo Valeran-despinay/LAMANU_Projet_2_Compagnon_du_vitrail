@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap');
+
 @font-face {
     font-family: "FrederickatheGreat-Regular";
     src: url("../fonts/FrederickatheGreat-Regular.ttf");
@@ -94,16 +95,13 @@ h1 {
     color: #690426;
     /* font-size: 25px; */
     font-size: 2rem;
-    padding-left: 1rem; 
+    padding-left: 1rem;
     flex-wrap: wrap;
 }
+
 /* fin du bandeau */
 
 /* début du footer */
-#footer {
-
-    background-color: #3a358a;
-}
 
 #mention {
     color: #ffffff;
@@ -146,7 +144,40 @@ h1 {
     color: #000000;
 }
 
-#boutonatelier,#boutonréalisation
-{
+#boutonatelier,
+#boutonréalisation {
     margin-right: 10vw;
+}
+
+body {
+    background-color: #3a358a;
+}
+
+.map-responsive {
+    width: 70%;
+    /* height: 10vh; */
+    margin: 2rem auto;
+}
+
+#footer {
+
+    background-color: #3a358a;
+}
+
+#colombe {
+    width: 100%;
+}
+
+.banniere {
+    height: 400px;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap');
+
+@font-face {
+    font-family: "FrederickatheGreat-Regular";
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
 }
