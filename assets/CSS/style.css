@@ -55,5 +55,7 @@ h1 {
 /* Modifs photos */
 .WorkshopPicture{
     border-radius: 5%;
+    width: 100%;
+    height: auto;
 }
 /* FIN PAGE ATELIER */
